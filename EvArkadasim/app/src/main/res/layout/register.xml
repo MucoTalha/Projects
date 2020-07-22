@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#528b8b">
+
+
+        <ImageView
+            android:id="@+id/profilfoto"
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            app:srcCompat="@drawable/logo"
+
+            />
+
+
+        <EditText
+
+            android:id="@+id/ad"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/edittext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:hint="  Ad - Soyad" />
+
+
+        <EditText
+            android:id="@+id/yas"
+            android:textColor="@color/colorWhite"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/edittext"
+            android:hint="  Yaş"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/sehir"
+            android:textColor="@color/colorWhite"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/edittext"
+            android:hint="  Şehir"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/telefon"
+            android:textColor="@color/colorWhite"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:textColorHint="@color/colorWhite"
+            android:background="@drawable/edittext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:hint="  Telefon Numaranız" />
+
+        <EditText
+            android:id="@+id/bolum"
+            android:textColor="@color/colorWhite"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:textColorHint="@color/colorWhite"
+            android:background="@drawable/edittext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="280dp"
+            android:hint="  Okuduğunuz Bölüm" />
+
+
+        <EditText
+            android:id="@+id/mail"
+            android:textColor="@color/colorWhite"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/edittext"
+            android:hint="  Mail Adresi"
+            android:textColorHint="@color/colorWhite" />
+
+
+        <EditText
+            android:id="@+id/sifre"
+            android:textColor="@color/colorWhite"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/edittext"
+            android:hint="  Şifre"
+            android:textColorHint="@color/colorWhite" />
+
+
+        <EditText
+            android:id="@+id/aciklama"
+            android:textColor="@color/colorWhite"
+            android:layout_width="320dp"
+            android:layout_height="130dp"
+            android:gravity="start"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/edittext"
+            android:hint="  Kendiniz hakkında bilgiler"
+            android:textColorHint="@color/colorWhite" />
+
+
+        <Button
+            android:id="@+id/btnkyt"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#FFB74D"
+            android:text="KAYDET"
+            android:textColor="@color/colorBlack2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1051505457478",
+    "firebase_url": "https://ev-arkadasim-88826.firebaseio.com",
+    "project_id": "ev-arkadasim-88826",
+    "storage_bucket": "ev-arkadasim-88826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051505457478:android:bd89130e325bab325b4d47",
+        "android_client_info": {
+          "package_name": "com.example.evarkadasim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051505457478-835bfb5m9nk0q7fctkgau330qkde2qgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf6vfCz9sVJjlGUdARtfSCtoLLlfo3lzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051505457478-835bfb5m9nk0q7fctkgau330qkde2qgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
